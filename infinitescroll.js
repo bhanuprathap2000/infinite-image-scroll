@@ -1,6 +1,6 @@
 const count=10; //number of images per request
 const imageContainer=document.getElementById('image-container'); 
-const apiKey=process.env.API_KEY;
+const apiKey=API_KEY;
 const apiUrl=`https://api.unsplash.com/photos/random?client_id=${apiKey}&count=${count}`;
 let ready=false;
 let imagesLoaded=0;
